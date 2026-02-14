@@ -1,6 +1,6 @@
 {
-  "name": "NF Fashion Tailoring App",
-  "description": "Premium Ladies Tailoring System for Tando Allahyar with AI recommendations and WhatsApp integration.",
+  "name": "NF Fashion Silaee Center",
+  "description": "Premium tailoring booking application for Tando Allahyar.",
   "requestFramePermissions": [
     "camera"
   ]
