@@ -1,0 +1,7 @@
+{
+  "name": "NF Fashion Tailoring App",
+  "description": "Premium Ladies Tailoring System for Tando Allahyar with AI recommendations and WhatsApp integration.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
