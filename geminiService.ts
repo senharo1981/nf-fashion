@@ -1,4 +1,3 @@
-
 import { GoogleGenAI } from "@google/genai";
 
 export const getTailoringAdvice = async (suitType: string, fabricDescription: string) => {
@@ -8,11 +7,11 @@ export const getTailoringAdvice = async (suitType: string, fabricDescription: st
       model: 'gemini-3-flash-preview',
       contents: `You are a fashion consultant for a ladies' tailoring shop in Pakistan. 
       The customer is getting a "${suitType}" stitched with "${fabricDescription}" fabric. 
-      Suggest 3 trendy neck and sleeve designs suitable for this category in 2 sentences.`,
+      Suggest 3 trendy neck and sleeve designs suitable for this category in 2 sentences in Urdu.`,
     });
     return response.text;
   } catch (error) {
     console.error("Gemini Error:", error);
-    return "Our experts recommend traditional intricate embroidery for this suit type.";
+    return "ماہرین کے مطابق اس کپڑے پر لیس اور کٹ ورک کا کام بہت اچھا لگے گا۔";
   }
 };
